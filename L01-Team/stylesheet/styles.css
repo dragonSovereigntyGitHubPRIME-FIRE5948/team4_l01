@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Aquire';
+    src: url("/font/Aquire.otf") format("truetype");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F8EEE7;
+    font-family: Aquire;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #94618E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #49274A;
+}
+
+.active {
+    background-color: #49274A;
+}
+
+header {
+    font-size: 3vw;
+    margin: 55px 75px;
+    color: #49274A;
+}
+
+main {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+    background-color: #94618E;
+    /* border: 7px solid black; */
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+/* section:nth-child(1) {
+} */
+
+
+.column {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.content-image {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 2vw;
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+.body-text {
+    font-size: 1.1vw;
+}
+
+
+
+

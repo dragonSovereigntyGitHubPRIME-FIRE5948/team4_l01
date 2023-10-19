@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Principles of Web Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Aquire';
+            src: url("/font/Aquire.otf") format("truetype");
+        }
+
+        header {
+            font-size: 3vw;
+            margin: 55px 75px;
+            color: #49274A;
+        }
+
+        body {
+            margin: 0px;
+            background-color: #F8EEE7;
+            font-family: Aquire;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #94618E;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: wheat;
+            text-align: center;
+            padding: 25px 25px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #49274A;
+        }
+
+        .active {
+            background-color: #49274A;
+        }
+
+        div {
+            height: calc(100vh/6);
+            border: 5px solid #49274A;
+            box-sizing: border-box;
+            background: #94618E;
+            color: white;
+            margin-bottom: 10px;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div:hover {
+            height: calc(100vh/6);
+            border: 1px solid black;
+            box-sizing: border-box;
+            background: #49274A;
+            color: white;
+        }
+
+        .container1::before {
+            content: "Colour";
+        }
+
+        .container2::before {
+            content: "Typography";
+        }
+
+        .container3::before {
+            content: "Easy Navigation";
+        }
+
+        .container4::before {
+            content: "Consistency in Design";
+        }
+
+        .container5::before {
+            content: "Digestible Content";
+        }
+
+        .container6::before {
+            content: "Optimum Performance";
+        }
+
+        .container1:hover::before {
+            content: "A colour palette will influence your customer’s behaviour. Colour selection should be less than 5 colours for simplicity. ";
+        }
+
+        .container2:hover::before {
+            content: "Typeface should be legible and there should be a maximum of 3 different fonts. ";
+        }
+
+        .container3:hover::before {
+            content: "Keep navigation simple. Ensure content can be reached within a maximum of 3 clicks. ";
+        }
+
+        .container4:hover::before {
+            content: "Have fixed colour theme. Visual styles need to be consistent. ";
+        }
+
+        .container5:hover::before {
+            content: "Use white space, use hierarchy, be concise.";
+        }
+
+        .container6:hover::before {
+            content: "Ensure the website is optimised with its size kept to a minimum. ";
+        }
+    </style>
+</head>
+
+    <!-- Navbar -->
+    <ul>
+        <li><a class="active" href="1_principles.html">Principles of Web Design</a></li>
+        <li><a href="2_parts.html">Parts of Webpage</a></li>
+        <li><a href="3_plan.html">Plan</a></li>
+        <li><a href="4_examples.html">Examples</a></li>
+        <li><a href="5_feedbackform.html">Feedback</a></li>
+        <li><a href="6_aboutus.html">About</a></li>
+    </ul>
+
+<!-- Title -->
+<header>
+    Principles of Web Design by CLARENCE
+</header>
+
+<body>
+    <div class="container1"></div>
+    <div class="container2"></div>
+    <div class="container3"></div>
+    <div class="container4"></div>
+    <div class="container5"></div>
+    <div class="container6"></div>
+</body>
+
+</html>

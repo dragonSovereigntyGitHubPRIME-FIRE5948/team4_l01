@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Parts of Webpage</title>
+    <style>
+        .form {
+            font-size: 1vw;
+            padding: 100px;
+            border: 5px solid #49274A;
+            border-radius: 38px;
+        }
+    </style>
+    <link href="stylesheet/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <ul>
+      <li><a href="1_principles.html">Principles of Web Design</a></li>
+      <li><a  href="2_parts.html">Parts of Webpage</a></li>
+      <li><a href="3_plan.html">Plan</a></li>
+      <li><a href="4_examples.html">Examples</a></li>
+      <li><a class="active" href="5_feedbackform.html">Feedback</a></li>
+      <li><a href="6_aboutus.html">About</a></li>
+  </ul>
+    <!-- Title -->
+    <header>
+            Feedback by SHANNON ZHENG
+    </header>
+
+    <!-- Content -->
+    <main>
+
+      <div class="form">
+        <form action="/formSubmit.html">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" style="width:300px;"><br><br>
+        
+          <label for="email" >Email:</label>
+          <input type="email" id="email" name="email" style="width:300px;"><br><br>
+        
+          Rate the quality of the website: <br>
+          <input type="radio" id="excellent" name="rating" value="excellent">
+          <label for="excellent">Excellent</label>
+          <input type="radio" id="very good" name="rating" value="very good">
+          <label for="very good">Very Good</label>
+          <input type="radio" id="good" name="rating" value="good">
+          <label for="good">Good</label>
+          <input type="radio" id="average" name="rating" value="average">
+          <label for="average">Average</label>
+          <input type="radio" id="poor" name="rating" value="poor">
+          <label for="poor">Poor</label><br><br>
+        
+          <label for="feedback">Feedback:</label><br>
+          <textarea name="feedback" style="width:400px; height:200px;"></textarea><br><br>
+        
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+
+    </main>
+
+</body>
+
+</html>
